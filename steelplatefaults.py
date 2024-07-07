@@ -182,25 +182,3 @@ ax.set_xticklabels(model_names)
 ax.legend()
 
 plt.show()
-
-!apt-get install git
-
-!git config --global user.name "thenameisabhishek22"
-!git config --global user.email "absverma2207@gmail.com"
-
-import os
-os.makedirs('steel-plate-fault-detection', exist_ok=True)
-os.chdir('steel-plate-fault-detection')
-
-!git init
-
-!git add .
-
-!git commit -m "Initial commit"
-
-!git remote remove origin
-
-!git remote add origin https://github.com/thenameisabhishek22/steel-plate-fault-detection.git
-
-!git push origin master
-
